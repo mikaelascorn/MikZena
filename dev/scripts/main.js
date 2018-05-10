@@ -33,6 +33,7 @@ app.getProduct = function (store, drink) {
             
         // }
         if (drink.primary_category === "Beer" && drink.regular_price_in_cents > 5000 && drinkChoices.length < 5) {
+            // miguel -- I feel like we can make this less verbose. Maybe we can extract this logic into a function? 
             drinkChoices.push(drink)           
         }
         // console.log(drinkChoices);
