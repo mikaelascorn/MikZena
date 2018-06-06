@@ -14,7 +14,7 @@ section.result {
 
 section.result {
     h2 {
-        @include fontSize(22);
+        @include fontSize(27);
         margin-top: 25px;      
     }
     .results-container {
@@ -28,6 +28,11 @@ section.result {
             margin: 0 auto;
             width: 100%;
             padding: 10px 0;
+        }
+        .userDrink {
+            min-height: 44px;
+            max-width: 300px;
+            margin: auto;
         }
         h4 {
             text-align: center;
@@ -44,7 +49,7 @@ section.result {
                 @include fontSize(18);
             }  
         }
-        p.userPrice {
+        .userPrice {
             text-align: center;
             font-weight: bold;
             @include fontSize(18);

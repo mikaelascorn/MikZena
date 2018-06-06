@@ -35,9 +35,7 @@ form {
   }    
   .selectPrice label {
     @include fontSize(20);
-    line-height: 40px;
-    @media (min-width: 640px) {
-    }
+    line-height: 49px;
   } 
   .selectDrink label,
   .selectPrice label {
@@ -52,7 +50,7 @@ form {
       min-width: 80px;
       flex-basis: 0;
       margin: 5px 25px;
-      line-height: 40px;
+      line-height: 47px;
     }
   } 
   .selectPrice input[type="radio"]:checked+label,

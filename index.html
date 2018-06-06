@@ -6,22 +6,22 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>My Project</title>
 	<!-- Fauvicon -->
-	<link rel="apple-touch-icon" sizes="57x57" href="fauvicon.ico/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="fauvicon.ico/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="fauvicon.ico/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="fauvicon.ico/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="fauvicon.ico/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="fauvicon.ico/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="fauvicon.ico/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="fauvicon.ico/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="fauvicon.ico/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="fauvicon.ico/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="fauvicon.ico/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="fauvicon.ico/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="fauvicon.ico/favicon-16x16.png">
-	<link rel="manifest" href="fauvicon.ico/manifest.json">
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon.ico/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon.ico/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon.ico/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon.ico/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon.ico/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon.ico/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon.ico/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon.ico/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="favicon.ico/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon.ico/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon.ico/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon.ico/favicon-16x16.png">
+	<link rel="manifest" href="favicon.ico/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="fauvicon.ico/ms-icon-144x144.png">
+	<meta name="msapplication-TileImage" content="favicon.ico/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	<!-- Google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display" rel="stylesheet">
@@ -37,12 +37,13 @@
 	<form action="#">
 		<div class="wrapper">
 			<div class="formInfo">
-				<h3>Need a drink? Choice is hard, let us help!</h3>
+				<h3>Need a drink?</h3>
+				<h4>Choice is hard, let us help!</h4>
 				<h5>Just fill out a few questions and we'll pick some options for you, available at your closest LCBO.</h5>
 			</div>
 			<!-- City Question -->
 			<div class="selectCity">
-				<h2>Where are you?</h2>
+				<h2><span>1</span>Where are you?</h2>
 				<div class="userInput">
 					<label for="postalCode">Enter your postal code</label>
 					<input type="text" placeholder="M5V 2A9" name="question1" id="postalCode" pattern="[L-Pl-p][0-9][A-Za-z] [0-9][A-Za-z][0-9]" value="M5V 2A9">
@@ -51,7 +52,7 @@
 				
 			<!-- Price Question -->
 			<div class="selectPrice">
-				<h2>Budget!</h2>
+				<h2><span>2</span>Budget!</h2>
 				<div class="userSelection">
 					<input type="radio" name="price" id="budget" value="budget">
 					<label for="budget">$</label>
@@ -69,7 +70,7 @@
 				
 			<!-- Drink Question -->
 			<div class="selectDrink">
-				<h2>Poison!</h2>
+				<h2><span>3</span>Poison!</h2>
 				<div class="userSelection">
 					<input type="radio" name="drink" id="beer" value="Beer">
 					<label for="beer"><img src="public/assets/beer.png" alt="Beer Glass"></label>

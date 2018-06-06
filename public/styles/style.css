@@ -171,7 +171,7 @@ form {
   form .selectPrice label {
     font-size: 20px;
     font-size: 2rem;
-    line-height: 40px; }
+    line-height: 49px; }
   form .selectDrink label,
   form .selectPrice label {
     -webkit-box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
@@ -191,7 +191,7 @@ form {
         -ms-flex-preferred-size: 0;
             flex-basis: 0;
         margin: 5px 25px;
-        line-height: 40px; } }
+        line-height: 47px; } }
   form .selectPrice input[type="radio"]:checked + label,
   form .selectDrink input[type="radio"]:checked + label {
     border: 5px solid #da810f; }
@@ -224,8 +224,8 @@ section.result .results-container {
         width: 30%; } }
 
 section.result h2 {
-  font-size: 22px;
-  font-size: 2.2rem;
+  font-size: 27px;
+  font-size: 2.7rem;
   margin-top: 25px; }
 
 section.result .results-container {
@@ -242,6 +242,10 @@ section.result .results-container {
     margin: 0 auto;
     width: 100%;
     padding: 10px 0; }
+  section.result .results-container .userDrink {
+    min-height: 44px;
+    max-width: 300px;
+    margin: auto; }
   section.result .results-container h4 {
     text-align: center;
     margin: 10px 0;
@@ -259,7 +263,7 @@ section.result .results-container {
       section.result .results-container h2 {
         font-size: 18px;
         font-size: 1.8rem; } }
-  section.result .results-container p.userPrice {
+  section.result .results-container .userPrice {
     text-align: center;
     font-weight: bold;
     font-size: 18px;
@@ -311,11 +315,17 @@ form {
 h2 {
   font-family: 'Playfair Display', serif;
   text-align: center;
-  margin: 0px;
-  font-size: 22px;
-  font-size: 2.2rem;
-  padding: 30px 0px 10px;
+  margin: 0px 0px 15px;
+  font-size: 27px;
+  font-size: 2.7rem;
+  padding: 35px 0px 10px;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); }
+  h2 span {
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px 13px 8px 13px;
+    margin-right: 15px;
+    font-family: monospace; }
 
 .formInfo {
   padding-bottom: 15px; }
@@ -325,6 +335,12 @@ h2 {
     margin: 15px 0px 10px;
     padding: 15px 20px 10px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); }
+
+h4 {
+  font-size: 25px;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  margin: 25px; }
 
 h5 {
   font-size: 18px;
@@ -340,8 +356,8 @@ h5 {
 .formInfo {
   padding-bottom: 15px; }
   .formInfo h3 {
-    font-size: 20px;
-    font-size: 2rem;
+    font-size: 35px;
+    font-size: 3.5rem;
     margin: 15px 0px 10px;
     padding: 15px 20px 10px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); }
